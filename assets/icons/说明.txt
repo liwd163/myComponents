@@ -1,0 +1,11 @@
+1.本目录存放svg图标, 为组件"components/icon"所用, 将被svg-sprite-loader按需加载.
+2.SVG图标设计规范参见:https://ant.design/docs/spec/icon-cn (或http://ant-design.gitee.io/docs/spec/icon-cn).
+3.图标库:
+  http://iconfont.cn,
+  https://material.io,
+  或其他符合规范的图标库.
+4.文件命名要求: [图标名]-[形状?]-[描线?]-[方向?]. 有含义, 字母全小写, 不得有空格, 单词分隔符用"-".
+5.使用方法:
+  import Icon from '../../../components/icon'
+  <Icon type="file-text"/>
+  其中type为svg的文件名(不含扩展名)
